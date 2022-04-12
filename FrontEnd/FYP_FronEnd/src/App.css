@@ -1,0 +1,662 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.MenuItem
+{
+  color:white;
+  font-size: 22px;
+  font-family: initial;
+}
+.MenuItem:hover
+{
+  color:#f3ce73;
+}
+.cat
+{
+  border-bottom:1px solid silver ;
+  background:'white';
+  color:'blue';
+}
+.MenuItem1:hover
+{
+  background:'silver'; 
+}
+.MenuDrawerItem
+{
+  color:#000d33;
+  font-size: 10px;
+  font-family: initial;
+}
+.MenuDrawerItem:hover
+{
+  color:#c49113;
+
+}
+.Map
+{
+  height: 550px;
+}
+.dropdown-item:hover
+{
+  color:#081333,
+
+}
+.LogoClass{
+  width: min(200px, 270px);
+}
+  .BottomNavBar {
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+  
+    border-top: 1px solid silver;
+  }
+  .line {
+             
+    /* Increase this as per requirement */
+    padding-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.line1 {
+             
+  /* Increase this as per requirement */
+  padding-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-color: #f3ce73;
+  width: fit-content;
+}
+.not-found
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(68,68,68);
+  min-height: 91vh;
+}
+.not-found h2{
+  font-size: 55px;
+}
+.not-found p{
+  font-size: 18px;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.center1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  .footerMenu:hover
+  {
+     color: #f3ce73;
+  }
+  .footerMenu
+  {
+     color: white;
+     text-decoration: none;
+  }
+ 
+.NavBarActive
+{
+  color:#f3ce73;
+
+}
+  .Offer
+  {
+    width: 100%;
+    height: 37vh;
+    background-image: url('https://i.pinimg.com/736x/f8/1b/47/f81b47fed0733436998c15377eb13d87.jpg');
+    background-size: cover;
+    background-position:center;
+    position: relative;
+   
+  }
+
+  .testLeft
+  {
+    background-image: url(./Components/Images/background2.jpg);
+  }
+  .testinomial
+  {
+    background-image: url(./Components/Images/testinomial.jpg);
+  }
+
+.microphone { position: relative;
+
+  animation: pulse 1s linear infinite;
+  /* border-radius: 50%; */
+  /* z-index: -2; */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100%
+  {
+    transform: scale(1.1);
+  }
+
+}
+ 
+  
+  .Feature
+  {
+    width: 100%;
+    height: 80vh;
+    background-image:linear-gradient(to right,rgba(0,0,0,1) 20% ,rgba(255,255,255,0.2)), url(./Components/Images/bgImage.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    background-attachment: fixed;
+   
+  }
+  .BTN-Class
+  {
+    width:120px;
+    text-transform: capitalize;
+    background-color:#f3ce73;
+    color: black;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-family: initial;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  .quickDetail table
+  {
+    font-size: 14px;
+    color: rgb(114, 111, 111);
+  }
+  .quickDetail table tr td
+  {
+   text-align: left;
+  }
+  .reviewPageCenter
+  {
+    padding: 4%;
+  }
+  .reviewPageTop
+  {
+    /* background-image: url(./Components/Images/rb.jpg); */
+    background-color: #186494;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px 0px;
+  }
+  .reviewPageDown
+  {
+    /* background-image: url(./Components/Images/rb.jpg); */
+    background-color: #186494;
+    height: 60px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .Tab
+  {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: large;
+  }
+ .BTN-Class:hover
+ {
+
+  background-color: #186494;
+  /* background-color: #134f75; */
+  color:white;
+ } .BTN-Class1
+ {
+   width:120px;
+   text-transform: capitalize;
+   background-color: black;
+   color: white;
+   border-radius: 50px;
+   border: 1px solid white;
+   font-family: initial;
+   font-weight: bold;
+
+ }
+
+ 
+.BTN-Class1:hover
+{
+  background-color:#186494;
+  color:white;
+}
+  .Feature-Div
+  {
+    color: white;
+    max-width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-align: center;
+    padding: auto;
+  }
+  .DetailPageClass
+  {
+    padding: 2%;
+  
+  }
+ 
+  .imgClass1:hover
+  {
+    height: 3000px;
+  }
+  .ImageClassName
+  {
+    height: 200px;
+  }
+  .DetailPic
+  {
+    height: 550px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .socialMedia
+  {
+     transition:all 0.3s linear;
+  }
+  .socialMedia:hover
+  {
+    transform: scale(1.3);
+  }
+.SignInClass
+{
+  background-color: #f3ce73;
+}
+  .FooterClass
+  {
+  
+    /* background-color: #48546c; */
+    background-color:#134a6b;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+
+  }
+  .BottomNavBar a {
+    float: left;
+    display: block;
+    color: #000d33;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    font-size: 15px;
+    width: 20%;
+    
+    
+  }
+  .AccessoriesClass:hover
+  {
+    color: #f3ce73;
+    cursor:auto;
+  }
+  .DropClass:hover
+  {
+    color: #f3ce73;
+  }
+  .BottomNavBar a:hover {
+   
+    color:#f3ce73;
+   
+  }
+  @media screen and (min-width: 500px) {
+    .BottomNavBar {
+    display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .HideText{
+    display: none;
+    }
+  }
+ 
+
+  @media screen and (max-width: 700px) {
+    .carousel-indicators {
+    visibility: hidden;
+    }
+    .Map
+    {
+      height: 300px;
+    }
+  }
+  .card-img-top
+  {
+    height:'200px';
+  }
+  h4 {
+    display: flex;
+    flex-direction: row;
+}
+ 
+.ImgTransform:hover {
+	transform: scale(1);
+}
+.Zoom:hover {
+  transform: scale(0.95);
+  }
+  .Zoom {
+    height: 150px;
+    transition: transform .2s; 
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    @media screen and (max-width: 640px) {
+      .Zoom {
+        height: 130px;
+        width: 125px;
+      }
+    }
+    @media screen and (max-width: 640px) {
+      .incrementClass{
+   
+        width: 360px;
+      }
+    }
+ 
+    @media screen and (max-width: 640px) {
+      #myBtn {
+       
+        right: 7%;
+          }
+        }
+.ShadowClass:focus
+{
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px gray;
+}
+  @media screen and (max-width: 768px) {
+    .Why {
+    text-align: justify;
+  
+    }
+  }
+  .card-img{
+    height:150px;
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+    width: 160.6px;
+    height: 250px;
+    }
+    .card-img-top
+    {
+      height: 120px;
+    }
+    .card-img{
+      height: 100px;
+  
+    }
+  }
+  /* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.btn-secondary:hover
+{
+  background-color: #f3ce73;
+}
+.navLogin
+{
+  background-color:#f3ce73;
+  color: #000;
+
+
+}
+.navLogin:hover
+{
+  background-color: #186494;
+  color:white;
+}
+
+.carousel-root {
+  width:100% !important;
+
+
+}
+
+.carousel .slide {
+
+  color: black;
+  padding-right: 7.5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-left: 7.5%;
+}
+
+.carousel .slide img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+}
+
+.myCarousel {
+  background: #e2e2e2;
+  margin-top: -12%;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid #ddd;
+
+}
+
+
+
+.myCarousel h3 {
+  color: #222;
+  font-weight: 100;
+  letter-spacing: 0.2px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.myCarousel h4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 500;
+  color: #787878;
+  font-size: 14px;
+}
+
+.myCarousel p {
+  font-weight: 100 !important;
+  line-height: 29px !important;
+  color: #222;
+  font-size: 15px;
+  font-family: sans-serif;
+  max-height: 67px;
+  margin-bottom: 25px;
+}
+
+
+.carousel .control-dots .dot {
+  box-shadow: none !important;
+  background: #454545 !important;
+  outline: 0;
+  display: none;
+}
+
+.carousel.carousel-slider .control-arrow {
+  background: #000 !important;
+  height: 50px !important;
+  position: absolute;
+  top: 40% !important;
+}
+
+
+
+@media only screen and (max-width: 934px) {
+  .carousel-root {
+    outline: 0;
+    width: 93% !important;
+    margin: auto !important;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    display: none !important;
+  }
+  .myCarousel {
+    background: #fafafa;
+    margin-top: -9%;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    padding-bottom: 12.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #ddd;
+    height: 269px;
+  }
+
+  .carousel .slide img {
+    width: 24% !important;
+    border-radius: 50%;
+  }
+}
+/* zahid */
+/* .FormGroup {
+	margin: 0 15px 20px;
+	padding: 0;
+	border-style: none;
+	background-color: #7795f8;
+	will-change: opacity, transform;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
+	border-radius: 4px;
+}
+
+.FormRow {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-left: 15px;
+	border-top: 1px solid #819efc;
+}
+
+.StripeElement--webkit-autofill {
+	background: transparent !important;
+}
+
+.StripeElement {
+	width: 100%;
+	padding: 11px 15px 11px 0;
+}
+
+button {
+	display: block;
+	font-size: 16px;
+	width: calc(100% - 30px);
+	height: 40px;
+	margin: 40px 15px 0;
+	background-color: #f6a4eb;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #ffb9f6;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 100ms ease-in-out;
+	will-change: transform, background-color, box-shadow;
+	border: none;
+}
+
+button:active {
+	background-color: #d782d9;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #e298d8;
+	transform: scale(0.99);
+}
+
+.App {
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-right: 25%;
+}
+
+h1,
+h3 {
+	text-align: center;
+} */
